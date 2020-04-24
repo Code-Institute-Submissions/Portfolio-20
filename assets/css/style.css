@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;600&display=swap');
-/* 
+
+/* General */
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
-} */
+}
 
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 20px;
+    line-height: 2rem;
+    
 }
 
+h2 {
+    padding-top: 40px;
+    text-align: center;
+   
+}
+
+/* Header/Navigation */
 header {
     position: absolute;
     z-index: 10;
@@ -37,18 +47,16 @@ nav {
 
 .navbar-light .navbar-brand {
     font-weight: 600;
-    color: blue;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: #edf9fc;
 }
 .navbar-light .navbar-brand:hover {
+    color: #53cde2;
     font-size: 1.5rem;
     transition-duration: 0.5s;
 
 }
 
-
-
-
+/* Home */
 
 .intro {
     position:relative ;
@@ -103,8 +111,31 @@ h1 {
     }
 }
 
+/* About Section */
+
+#about {
+    background-color: #53cde2;
+
+}
+
+#about p {
+    margin: 40px 0px;
+}
+
+.about-pic {
+    background-image: url("/Portfolio/assets/images/yannick(1)n.jpg");
+    min-height: 80vh;
+    background-size: cover;
+    background-position: top;
+}
+
 
   
+/* Portfolio Section */
+
+.my-portfolio {
+    background-color: #d1fafa;
+}
 
 .portfolio-box {
     background-color: cadetblue;
