@@ -16,8 +16,11 @@ body {
 }
 
 h2 {
-    padding-top: 40px;
+    padding-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
+    text-transform: uppercase;
+    
    
 }
 
@@ -60,7 +63,7 @@ nav {
 
 .intro {
     position:relative ;
-    background-image: url("/Portfolio/assets/images/francesco-de-tommaso-unsplash.jpg");
+    background-image: url("/assets/images/francesco-de-tommaso-unsplash.jpg");
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -123,7 +126,7 @@ h1 {
 }
 
 .about-pic {
-    background-image: url("/Portfolio/assets/images/yannick(1)n.jpg");
+    background-image: url("/assets/images/yannick(1)n.jpg");
     min-height: 80vh;
     background-size: cover;
     background-position: top;
@@ -133,8 +136,8 @@ h1 {
   
 /* Portfolio Section */
 
-.my-portfolio {
-    background-color: #d1fafa;
+/* .my-portfolio {
+    background-color: #d1fafa14;
     padding-bottom: 150px;
 
 }
@@ -145,9 +148,9 @@ h1 {
     width: 400px;
     
     border: 1px solid salmon;
-  
+   */
 }
-
+/* 
 .display-text {
     display: none;
 }
@@ -168,22 +171,38 @@ h1 {
 {
     visibility: visible;
     /* width: 100%;
-    height: 100%; */
+    height: 100%; 
     transition: 5s;
-}
+}*/
 
 .card-body {
     background-color: blueviolet;
 }
 
 
+#portfolio {
+    background-color: #d1fafa;
+    padding-bottom: 80px;
+}
 
-.project1, project2, project3, project4 {
+
+.project1, .project2, .project3, .project4 {
   position: relative;
+  /* background-image: url("/assets/images/dan-gold-unsplash.jpg");
+  background-size: cover;
+  background-position: top; */
+  background-color: #edf9fc;
+  
+
+
+
   min-height: 300px;
   width: 500px;
   border: 1px solid #005792;
   margin: auto;
+  padding: 10px;
+ 
+  
 }
 
 .image1 {
@@ -193,39 +212,72 @@ h1 {
   /* height: auto; */
 }
 
-.overlay1, overlay2, overlay3, overlay4 {
+.overlay1, overlay3, overlay4 {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #d1fafa;
+  
   overflow: hidden;
   width: 0;
   height: 100%;
   transition: .5s ease;
 }
 
-.container:hover .overlay1 {
+.project3 {
+    margin-top: 50px;
+    
+}
+
+.project4 {
+    margin-top: 50px;
+}
+
+.project1:hover .overlay1 {
   width: 100%;
 }
 
+.project2:hover .overlay1 {
+    width: 100%;
+}
+
+.project3:hover .overlay1 {
+    width: 100%;
+}
+
+.project4:hover .overlay1 {
+    width: 100%;
+}
 /* h2 {
   text-align: center
   } */
   
-button1 
+.button1 
    {
-   padding: 10px;
-   margin-left: 120px;
-   margin-top: 300px;
+   padding: 5px;
+   margin-top: 150px;
+   margin-left: 180px;
    border-radius: 5px;
    
    }
+
+.button1 a {
+    text-decoration: none;
+}
+
+.button1:hover {
+    background-color: #005792;
+    color: #fafafa;
+}
+a:hover {
+    color:aqua;
+}
  p1 {
    text-align: center;
  }
 
-.text1 {
+/* .text1 {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -235,4 +287,4 @@ button1
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); 
   white-space: wrap;
-}
+}  */
