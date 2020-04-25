@@ -135,11 +135,104 @@ h1 {
 
 .my-portfolio {
     background-color: #d1fafa;
+    padding-bottom: 150px;
+
 }
 
 .portfolio-box {
     background-color: cadetblue;
     min-height: 300px;
+    width: 400px;
+    
     border: 1px solid salmon;
-    border-radius: 10px;
+  
+}
+
+.display-text {
+    display: none;
+}
+
+
+#d1 {
+    background-color: brown;
+}
+
+#d2 {
+    background-color: beige;
+    columns: white;
+    
+    visibility: hidden;
+}
+
+#d1:hover #d2
+{
+    visibility: visible;
+    /* width: 100%;
+    height: 100%; */
+    transition: 5s;
+}
+
+.card-body {
+    background-color: blueviolet;
+}
+
+
+
+.project1, project2, project3, project4 {
+  position: relative;
+  min-height: 300px;
+  width: 500px;
+  border: 1px solid #005792;
+  margin: auto;
+}
+
+.image1 {
+  display: block;
+  width: 500px;
+  height: 300px;
+  /* height: auto; */
+}
+
+.overlay1, overlay2, overlay3, overlay4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay1 {
+  width: 100%;
+}
+
+/* h2 {
+  text-align: center
+  } */
+  
+button1 
+   {
+   padding: 10px;
+   margin-left: 120px;
+   margin-top: 300px;
+   border-radius: 5px;
+   
+   }
+ p1 {
+   text-align: center;
+ }
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+  white-space: wrap;
 }
