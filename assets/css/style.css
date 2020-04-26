@@ -15,6 +15,13 @@ body {
     
 }
 
+h1 {
+    font-size: 3.5rem;
+    /* font-weight: 600; */
+    
+}
+
+
 h2 {
     padding-top: 30px;
     margin-bottom: 30px;
@@ -25,6 +32,7 @@ h2 {
 }
 
 /* Header/Navigation */
+
 header {
     position: absolute;
     z-index: 10;
@@ -63,7 +71,7 @@ nav {
 
 .intro {
     position:relative ;
-    background-image: url("/assets/images/francesco-de-tommaso-unsplash.jpg");
+    background-image: url("/Portfolio/assets/images/francesco-de-tommaso-unsplash.jpg");
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -77,30 +85,12 @@ nav {
     font-size: 1.5rem;
 }
 
-h1 {
-    font-size: 3.5rem;
-    /* font-weight: 600; */
-    
-}
-
-
-/* @media screen and (max-width: 480px) {
-  h1, .intro p {
-      text-align: left;
-      color: white;
-    }
-    
-} */
 
 @media only screen and (max-width: 992px) {
   /* Large devices (laptops/desktops, 992px and up) */
   h1, .intro {
        padding: 150px 10px 15px 10px;
     }
-
-  /* nav {
-      background-color: #00589200;
-  } */
 
   
 }
@@ -126,58 +116,15 @@ h1 {
 }
 
 .about-pic {
-    background-image: url("/assets/images/yannick(1)n.jpg");
+    background-image: url("/Portfolio/assets/images/yannick(1)n.jpg");
     min-height: 80vh;
     background-size: cover;
     background-position: top;
 }
 
 
-  
-/* Portfolio Section */
+  /* PORTFOLIO-SECTION */
 
-/* .my-portfolio {
-    background-color: #d1fafa14;
-    padding-bottom: 150px;
-
-}
-
-.portfolio-box {
-    background-color: cadetblue;
-    min-height: 300px;
-    width: 400px;
-    
-    border: 1px solid salmon;
-   */
-}
-/* 
-.display-text {
-    display: none;
-}
-
-
-#d1 {
-    background-color: brown;
-}
-
-#d2 {
-    background-color: beige;
-    columns: white;
-    
-    visibility: hidden;
-}
-
-#d1:hover #d2
-{
-    visibility: visible;
-    /* width: 100%;
-    height: 100%; 
-    transition: 5s;
-}*/
-
-.card-body {
-    background-color: blueviolet;
-}
 
 
 #portfolio {
@@ -188,51 +135,31 @@ h1 {
 
 .project1, .project2, .project3, .project4 {
   position: relative;
-  /* background-image: url("/assets/images/dan-gold-unsplash.jpg");
-  background-size: cover;
-  background-position: top; */
-  background-color: #edf9fc;
-  
-
-
-
   min-height: 300px;
-  width: 500px;
-  border: 1px solid #005792;
   margin: auto;
   padding: 10px;
- 
-  
 }
 
-.image1 {
-  display: block;
-  width: 500px;
-  height: 300px;
-  /* height: auto; */
+.project1, .project4 {
+    background-color: #edf9fc;
+}
+.project2, .project3 {
+    background-color: #53cde2;
 }
 
-.overlay1, overlay3, overlay4 {
+
+.overlay1 {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: #d1fafa;
-  
   overflow: hidden;
   width: 0;
   height: 100%;
   transition: .5s ease;
 }
 
-.project3 {
-    margin-top: 50px;
-    
-}
-
-.project4 {
-    margin-top: 50px;
-}
 
 .project1:hover .overlay1 {
   width: 100%;
@@ -249,36 +176,32 @@ h1 {
 .project4:hover .overlay1 {
     width: 100%;
 }
-/* h2 {
-  text-align: center
-  } */
-  
-.button1 
-   {
-   padding: 5px;
-   margin-top: 150px;
-   margin-left: 180px;
-   border-radius: 5px;
-   
+
+
+   .stage {
+       text-align: center;
+       margin-top: 20px;
+       margin-bottom: 75px;
+       
    }
 
-.button1 a {
+.overlay1 a{
     text-decoration: none;
+    padding: 10px;
+    color: #005792;
+    margin-left: 215px;
+    border-radius: 5px;
+    border: 1px solid #005792;
 }
 
 .button1:hover {
     background-color: #005792;
-    color: #fafafa;
+     color: white;
+    
 }
-a:hover {
-    color:aqua;
-}
- p1 {
-   text-align: center;
- }
 
-/* .text1 {
-  color: white;
+.text1 {
+  /* color: white; */
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -287,4 +210,4 @@ a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); 
   white-space: wrap;
-}  */
+} 
