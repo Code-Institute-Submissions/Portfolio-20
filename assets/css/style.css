@@ -221,7 +221,9 @@ nav {
 
 #skills {
     background-color:#53cde2;
+    padding-top: 200px;
     padding-bottom: 300px;
+    
 }
 
 #contact {
@@ -255,4 +257,8 @@ nav {
     border: 1px solid #005792;
 }
 
+/* Footer */
 
+.social-links{
+    list-style-type: none;
+}
