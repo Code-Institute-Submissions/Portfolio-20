@@ -71,7 +71,7 @@ nav {
 
 .intro {
     position:relative ;
-    background-image: url("/Portfolio/assets/images/francesco-de-tommaso-unsplash.jpg");
+    background-image: url("/assets/images/francesco-de-tommaso-unsplash.jpg");
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -121,7 +121,7 @@ nav {
 }
 
 .about-pic {
-    background-image: url("/Portfolio/assets/images/yannick(1)n.jpg");
+    background-image: url("/assets/images/yannick(1)n.jpg");
     min-height: 80vh;
     background-size: cover;
     background-position: top;
@@ -216,3 +216,43 @@ nav {
   transform: translate(-50%, -50%); 
   white-space: wrap;
 } 
+
+/* skills */
+
+#skills {
+    background-color:#53cde2;
+    padding-bottom: 300px;
+}
+
+#contact {
+    background-color:#d1fafa;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+.contact-info {
+    color: rgb(65, 42, 165);
+    font-size: 1.3rem;
+}
+
+.contact-info:hover {
+    font-size: 1.5rem;
+    transition-duration: 0.5s;
+}
+
+.contact-form {
+    width: 100%; 
+    margin: 5px auto;
+    padding: 4px;
+    border: 1px solid #005792;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-form:focus {
+    background-color: #53cce2;
+    border: 1px solid #005792;
+}
+
+
