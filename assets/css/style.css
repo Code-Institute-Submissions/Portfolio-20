@@ -127,7 +127,7 @@ nav {
 }
 
 .project1, .project4 {
-    background-color: #edf9fc;
+    background-color: #8ab4f8;
 }
 .project2, .project3 {
     background-color: #53cde2;
@@ -174,8 +174,8 @@ nav {
 .overlay1 a{
     text-decoration: none;
     padding: 10px;
-    color: #005792;
-    margin-left: 215px;
+    color: #005792; 
+    margin-left: 14rem;
     border-radius: 5px;
     border: 1px solid #005792;
 }
@@ -280,7 +280,6 @@ label{
 
 /* Footer */
 
-
 footer {
     padding-top: 50px;
     padding-left: 40%;
@@ -308,6 +307,7 @@ footer {
 
 .copyright {
     padding-top: 40px;
+    
     margin-left: 3%;
     color: white;
 }
@@ -316,7 +316,7 @@ footer {
     padding-left: 35%;
      
  }
-  
+   
   
 
 /* Media Queries */

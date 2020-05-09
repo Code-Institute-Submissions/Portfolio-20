@@ -17,7 +17,7 @@
 	<title>Takafor Yannick Portfolio - Full Stack Web Developer</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="main-nav">
 			<div class="container-fluid">
@@ -55,7 +55,7 @@
 	</header>
 
 	<!-- Introduction -->
-	<section class="intro" id="home">
+	<section id="[home]" class="intro">
 		<h1 class="home-intro">
 			<strong>Takafor Yannick</strong>
 		</h1>
@@ -196,7 +196,7 @@
 					<div class="overlay1">
 						<h3 class="stage">Beautify</h3>
 						<h5 class="stage text-muted">Planning Stage</h5>
-						<a href="https://github.com/Takaforyannick30" target="_blank" class="button1 text-center">LEARN MORE</a>
+						<a href="https://github.com/Takaforyannick30" target="_blank" class="button1">LEARN MORE</a>
 					</div>
 				</div>
 
@@ -274,7 +274,7 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md-12 col-xs-12 col-sm-12 footer-list">
+				<div class="col">
 					<a href="https://www.facebook.com/cypriot.man" target="_blank"
 						class="social-list-link"><i class="fab fa-facebook-square"></i></a>
 					<a href="https://www.linkedin.com/in/takafor-anutatu-7783b819b/" target="_blank"
@@ -307,23 +307,23 @@
 	<script>
         $('body').scrollspy({ target:"#main-nav" });
         
-	    // // add smooth scrolling
-	    // $( '#main-nav a' ).on('click', function(e) {
-	    //     // check for hash value
-	    //     if(this.hash !== '') {
-	    //         // prevent default behaviour
-	    //         e.preventDefault();
-	    //         // store hash
-	    //         cont hash =this.hash;
-	    //         // animate smooth scrolls
-	    //         $('html, body').animate({
-	    //             scrollTop: $(hash).offset().top
-	    //         }, 900, function () {
-	    //             // add hash to url after scroll
-	    //             window.location.hash = hash;
-	    //         });
-	    //     }
-	    // });
+	    // add smooth scrolling
+	    $( '#main-nav a' ).on('click', function(event) {
+	        // check for hash value
+	        if(this.hash !== "") {
+	            // prevent default behaviour
+	            event.preventDefault();
+	            // store hash
+	            cont hash =this.hash;
+	            // animate smooth scrolls
+	            $('html, body').animate({
+	                scrollTop: $(hash).offset().top
+	            }, 800, function () {
+	                // add hash to url after scroll
+	                window.location.hash = hash;
+	            });
+	        }
+	    });
 	        
 	     
 	</script>
