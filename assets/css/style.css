@@ -71,7 +71,7 @@ nav {
 
 .intro {
     position:relative;
-    background-image: url("/Portfolio/assets/images/francesco-de-tommaso-unsplash.jpg");
+    background-image: url("Portfolio/assets/images/francesco-de-tommaso-unsplash.jpg");
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -99,7 +99,7 @@ nav {
 }
 
 .about-pic {
-    background-image: url("/Portfolio/assets/images/yannick(1)n.jpg");
+    background-image: url("Portfolio/assets/images/yannick(1)n.jpg");
     min-height: 80vh;
     background-size: cover;
     background-position: top;
