@@ -35,3 +35,9 @@ This site uses Scrollspy
 ### Features Left To Implement
 I the nearest future, I will complete the projects that are currently in the planning stage. I would like to add features to the contact form that will enable me to receive emails via the contact form.
 
+## Technologies used
+
+### languages used
+
+* HTML 
+
