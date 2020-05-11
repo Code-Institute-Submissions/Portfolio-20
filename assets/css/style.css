@@ -71,7 +71,7 @@ nav {
 
 .intro {
     position:relative;
-    background-image: url("Portfolio/assets/images/francesco-de-tommaso-unsplash.jpg");
+    background-image: url("/assets/images/francesco-de-tommaso-unsplash.jpg");
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -99,7 +99,7 @@ nav {
 }
 
 .about-pic {
-    background-image: url("Portfolio/assets/images/yannick(1)n.jpg");
+    background-image: url("/assets/images/yannick(1)n.jpg");
     min-height: 80vh;
     background-size: cover;
     background-position: top;
@@ -158,11 +158,10 @@ nav {
 }
 
 .project4:hover .overlay1 {
-    width: 100%;
+    width: 100%;  
 }
 
-
-   .stage {
+.stage {
        text-align: center;
        margin-top: 20px;
        margin-bottom: 75px;
@@ -180,9 +179,14 @@ nav {
     margin: 5px auto;
 } 
 
+.button1 {
+    text-align: center;
+}
+
 .button1:hover {
     background-color: #005792;
      color: white;
+     
     
 }
 
