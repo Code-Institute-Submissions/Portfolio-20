@@ -1,39 +1,48 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Takafor Yannick Portfolio
+---
 
-Welcome Takaforyannick30,
+This website has been created to serve the purpose of my portfolio as a Full-Stack Web Developer. It has six sections namely: Home, About, Portfolio, Skills, Contact, and CV. The Portfolio section highlights four projects covering a range of technologies.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Demo
+---
 
-## Gitpod Reminders
+A live demo can be found [here](https://takaforyannick30.github.io/Portfolio/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
+---
 
-`python3 -m http.server`
+## User Stories
 
-A blue button should appear to click: *Make Public*,
+As an employer, I would like to see a showcase of Yannick's projects.
 
-Another blue button should appear to click: *Open Browser*.
+As an employer, I would like to see Yannick's CV.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+As an employer, I would like to be provided with means of contacting Yannick by email, direct call or by post if I choose to. 
 
-A blue button should appear to click: *Make Public*,
+## Strategy
 
-Another blue button should appear to click: *Open Browser*.
+My objective in the design was to build a fully responsive site that provides easily accessible information to prospective employers with a visually appealing format.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Scope
 
-## Updates Since The Instructional Video
+For employers, my goal was to provide a brief overview of myself as a Full-stack Web Developer. This includes a brief introduction about me, my projects, my skillset, my CV, with many options for contacting me.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## Structure
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+In the Home section, I wanted employers to know my name and job title. In the about section, I wanted to briefly introduce my self. In the Portfolio section, I wanted them to see the projects I have done and the technologies used. In the Skills section, I wanted them to have an overview of my skill set. In the contact section, I wanted to provide many options for contacting me. And lastly, on my CV I wanted to provide them with my educational background and work experience.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Skeleton
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Surface
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Features
+---
 
---------
+This site has a fixed navigation bar with a logo (TY) and six menu items. I a tablet and mobile view the navigation bar collapses into a hamburger menu. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this.
 
-Happy coding!
+This site uses Scrollspy
+
+## Features Left To Implement
+
+I the nearest future, I will complete the projects that are currently in the planning stage. I would like to add features to the contact form that will enable me to receive emails via the contact form.
+
