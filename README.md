@@ -25,13 +25,13 @@ In the Home section, I wanted employers to know my name and job title. In the ab
 
 ### Skeleton
 
-[Home wireframe]("Portfolio/assets/wireframes/Home-wireframe-idea.pdf")
+[Home wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Home-wireframe-idea.pdf)
 
-[About wireframe]("Portfolio/assets/wireframes/About-wireframe-idea.pdf")
+[About wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/About-wireframe-idea.pdf)
 
-[Portfolio]("Portfolio/assets/wireframes/Portfolio-wireframe-idea.pdf")
+[Portfolio](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Home-wireframe-idea.pdf)
 
-[Skills wireframe]("Portfolio/assets/wireframes/Skills-wireframe-idea.pdf")
+[Skills wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Skills-wireframe-idea.pdf)
 
 
 
