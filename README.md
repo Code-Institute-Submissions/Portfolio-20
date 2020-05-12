@@ -39,5 +39,23 @@ I the nearest future, I will complete the projects that are currently in the pla
 
 ### languages used
 
-* HTML 
+* [HTML](https://en.wikipedia.org/wiki/HTML) 
+The use of HTML which stands for Hypertext Markup Language was very paramount to this website as with every website or web-based app. HTML5 was used in this project to keep up with the latest industry standards. 
+
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+The use of CSS which stands for Cascading Style Sheet was also very paramount to this project. CSS was used for styling the content on the website.
+
+* [Bootstrap](https://getbootstrap.com/)
+Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS-and Javascript-based design templates for tools, typography, forms, buttons, navigations, and other interfaces.  Bootstrap classes were used to build the navigation bar and to make the website responsive.
+
+### Tools used
+
+* [Git](https://git-scm.com/)
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Git was used in this project for version control.
+
+* [Gitpod](https://www.gitpod.io/)
+Gitpod is an online integrated development environment for GitHub. It creates a complete and disposable development environment for any GitHub repository directly in a browser. This project was developed in Gitpod.
+
+
+
 
