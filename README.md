@@ -25,10 +25,20 @@ In the Home section, I wanted employers to know my name and job title. In the ab
 
 ### Skeleton
 
+[Home wireframe]("assets/wireframes/Home-wireframe-idea.pdf")
+
+[About wireframe]("assets/wireframes/About-wireframe-idea.pdf")
+
+[Portfolio]("assets/wireframes/Portfolio-wireframe-idea.pdf")
+
+[Skills wireframe]("assets/wireframes/Skills-wireframe-idea.pdf")
+
+
+
 ### Surface
 
 ## Features
-This site has a fixed navigation bar with a logo (TY) and six menu items. I a tablet and mobile view the navigation bar collapses into a hamburger menu. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this.
+This site has a fixed navigation bar containing six menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this.
 
 This site uses Scrollspy
 
@@ -65,7 +75,7 @@ Gitpod is an online integrated development environment for GitHub. It creates a
 
 This site was developed using Gitpod. All changes to the code were then added and committed to a local repository. The commits were then pushed to my GitHub repository. The project was hosted using GitHub pages directly from the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html. The process of deploying this project on GitHub pages can be seen as bellow; 
 
-* Go to the settings tab of the repo, and scroll down to GitHub pages.
+* Go to the settings tab of the repository, and scroll down to GitHub pages.
 
 * Under GitHub pages, click on "source" and select the master branch.
 
@@ -73,7 +83,7 @@ This site was developed using Gitpod. All changes to the code were then added an
 
 * Scroll down to GitHub pages where will be stated "your site is ready to be published at "[https://takaforyannick30.github.io/Portfolio/](https://takaforyannick30.github.io/Portfolio/)".
 
-* Click on the URL and you will be auto-referred to the published webpage.When returning to the GitHub repository setting, scroll down to GitHub pages and you will see a light green block stating "Your site is published at " [https://takaforyannick30.github.io/Portfolio/](https://takaforyannick30.github.io/Portfolio/)".
+* Click on the URL and you will be auto-referred to the published webpage. When returning to the GitHub repository setting, scroll down to GitHub pages and you will see a light green block stating "Your site is published at " [https://takaforyannick30.github.io/Portfolio/](https://takaforyannick30.github.io/Portfolio/)".
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone  https://takaforyannick30.github.io/Portfolio.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
