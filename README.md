@@ -29,7 +29,7 @@ In the Home section, I wanted employers to know my name and job title. In the ab
 
 [About wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/About-wireframe-idea.pdf)
 
-[Portfolio](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Home-wireframe-idea.pdf)
+[Portfolio](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Portfolio-wireframe-idea.pdf)
 
 [Skills wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Skills-wireframe-idea.pdf)
 
