@@ -61,6 +61,24 @@ Git is a free and open source distributed version control system designed to han
 
 Gitpod is an online integrated development environment for GitHub. It creates a complete and disposable development environment for any GitHub repository directly in a browser. This project was developed in Gitpod.
 
+## Deployment
+
+This site was developed using Gitpod. All changes to the code were then added and committed to a local repository. The commits were then pushed to my GitHub repository. The project was hosted using GitHub pages directly from the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html. The process of deploying this project on GitHub pages can be seen as bellow; 
+
+* Go to the settings tab of the repo, and scroll down to GitHub pages.
+
+* Under GitHub pages, click on "source" and select the master branch.
+
+* You will be automatically taken to the top of the page wherein a light blue bar will be stated: "GitHub pages source saved".
+
+* Scroll down to GitHub pages where will be stated "your site is ready to be published at "[https://takaforyannick30.github.io/Portfolio/](https://takaforyannick30.github.io/Portfolio/)".
+
+* Click on the URL and you will be auto-referred to the published webpage.When returning to the GitHub repository setting, scroll down to GitHub pages and you will see a light green block stating "Your site is published at " [https://takaforyannick30.github.io/Portfolio/](https://takaforyannick30.github.io/Portfolio/)".
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone  https://takaforyannick30.github.io/Portfolio.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+
+
+
 
 
 
