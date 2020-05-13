@@ -18,6 +18,9 @@ body {
 h1 {
     font-size: 3.5rem;
     font-weight: 600;
+    text-align: center;
+    padding-top: 400px;
+    z-index: 1; 
     
 }
 
@@ -42,7 +45,8 @@ header {
 
 nav {
     background-color: #005792;
-    border-bottom: 1px solid #edf9fc;
+    border-bottom: 2px solid #edf9fc;
+    
     
 }
 
@@ -71,18 +75,30 @@ nav {
 
 .intro {
     position:relative;
-    background-image: url("Portfolio/assets/images/francesco-de-tommaso-unsplash.jpg");
+    background-image: url("/assets/images/francesco-de-tommaso-unsplash.jpg");
     min-height: 100vh;
     background-size: cover;
     background-position: center;
-    padding: 400px 300px;
+    /* padding: 400px 300px; */
+    
     color: white;
     background-attachment: fixed;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .intro p {
     font-size: 1.5rem;
+    text-align: center;
+    z-index: 1;
 }
 
 
@@ -99,7 +115,7 @@ nav {
 }
 
 .about-pic {
-    background-image: url("Portfolio/assets/images/yannick(1)n.jpg");
+    background-image: url("/assets/images/yannick(1)n.jpg");
     min-height: 80vh;
     background-size: cover;
     background-position: top;
@@ -335,9 +351,9 @@ footer a:hover {
 
 @media only screen and (max-width: 992px) {
   /* Large devices (laptops/desktops, 992px and up) */
-  h1, .intro {
+  /* h1, .intro {
        padding: 150px 10px 15px 10px;
-    }
+    } */
 
   
 }
@@ -359,10 +375,10 @@ footer a:hover {
 
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
-  h1, .intro {
+  /* h1, .intro {
        padding: 150px 5px 10px 5px;
        
-    }
+    } */
 
 
     /* footer {
