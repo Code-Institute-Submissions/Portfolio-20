@@ -25,7 +25,7 @@ In the Home section, I wanted employers to know my name and job title. In the ab
 
 ### Skeleton
 
-[Home wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Home-wireframe-idea.pdf)
+[Home wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Home-wireframe-idea-2.pdf)
 
 [About wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/About-wireframe-idea.pdf)
 
@@ -33,6 +33,7 @@ In the Home section, I wanted employers to know my name and job title. In the ab
 
 [Skills wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Skills-wireframe-idea.pdf)
 
+[Contact wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Contact-wireframe-idea.pdf)
 
 
 ### Surface

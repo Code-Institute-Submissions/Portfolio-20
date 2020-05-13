@@ -1,152 +1,138 @@
 /* General */
 
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Manrope', sans-serif;
-    font-size: 20px;
-    line-height: 2rem;
-    font-weight: 300;
-    
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  line-height: 2rem;
+  font-weight: 300;
 }
 
 h1 {
-    font-size: 3.5rem;
-    font-weight: 600;
-    text-align: center;
-    padding-top: 400px;
-    z-index: 1; 
-    
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 400px;
+  z-index: 1;
 }
 
-
 h2 {
-    font-weight: 600;
-    padding-top: 100px;
-    margin-bottom: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 5px;  
+  font-weight: 600;
+  padding-top: 100px;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 /* Header-Navigation */
 
 header {
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-   
+  position: absolute;
+  z-index: 10;
+  width: 100%;
 }
 
 nav {
-    background-color: #005792;
-    border-bottom: 2px solid #edf9fc;
-    
-    
+  background-color: #005792;
+  border-bottom: 2px solid #edf9fc;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
-    margin: 10px;
+  color: white;
+  margin: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    border-bottom: 1px solid white;
-    transition-duration: 0.5s;
+  border-bottom: 1px solid white;
+  transition-duration: 0.5s;
 }
 
 .navbar-light .navbar-brand {
-    font-weight: 600;
-    color: #edf9fc;
+  font-weight: 600;
+  color: #edf9fc;
 }
 .navbar-light .navbar-brand:hover {
-    color: #53cde2;
-    font-size: 1.5rem;
-    transition-duration: 0.5s;
-
+  color: #53cde2;
+  font-size: 1.5rem;
+  transition-duration: 0.5s;
 }
 
 /* Home */
 
 .intro {
-    position:relative;
-    background-image: url("/assets/images/francesco-de-tommaso-unsplash.jpg");
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    /* padding: 400px 300px; */
-    
-    color: white;
-    background-attachment: fixed;
-    
+  position: relative;
+  background-image: url("../images/francesco-de-tommaso-unsplash.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-attachment: fixed;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .intro p {
-    font-size: 1.5rem;
-    text-align: center;
-    z-index: 1;
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: 1;
 }
-
-
 
 /* About Section */
 
 #about {
-    background-color: #53cde2;
-
+  background-color: #53cde2;
 }
 
 #about p {
-    margin: 40px 0px;
+  margin: 40px 0px;
 }
 
 .about-pic {
-    background-image: url("/assets/images/yannick(1)n.jpg");
-    min-height: 80vh;
-    background-size: cover;
-    background-position: top;
+  background-image: url("../images/yannick(1)n.jpg");
+  min-height: 80vh;
+  background-size: cover;
+  background-position: top;
 }
 
-
-  /* PORTFOLIO-SECTION */
-
-
+/* PORTFOLIO-SECTION */
 
 #portfolio {
-    background-color: #d1fafa;
-    padding-bottom: 80px;
-    
+  background-color: #d1fafa;
+  padding-bottom: 80px;
 }
 
-
-.project1, .project2, .project3, .project4 {
+.project1,
+.project2,
+.project3,
+.project4 {
   position: relative;
   min-height: 300px;
   margin: auto;
   padding: 10px;
 }
 
-.project1, .project4 {
-    background-color: #8ab4f8;
+.project1,
+.project4 {
+  background-color: #8ab4f8;
 }
-.project2, .project3 {
-    background-color: #53cde2;
+.project2,
+.project3 {
+  background-color: #53cde2;
 }
-
 
 .overlay1 {
   position: absolute;
@@ -157,53 +143,49 @@ nav {
   overflow: hidden;
   width: 0;
   height: 100%;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-
 
 .project1:hover .overlay1 {
   width: 100%;
 }
 
 .project2:hover .overlay1 {
-    width: 100%;
+  width: 100%;
 }
 
 .project3:hover .overlay1 {
-    width: 100%;
+  width: 100%;
 }
 
 .project4:hover .overlay1 {
-    width: 100%;  
+  width: 100%;
 }
 
 .stage {
-       text-align: center;
-       margin-top: 20px;
-       margin-bottom: 75px;
-       
-   }
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
 
-.overlay1 a{
-    display: block;
-    text-decoration: none;
-    padding: 5px;
-    color: #005792; 
-    border-radius: 5px;
-    border: 1px solid #005792;
-    width: 9rem;
-    margin: 5px auto;
-} 
+.overlay1 a {
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  color: #005792;
+  border-radius: 5px;
+  border: 1px solid #005792;
+  width: 9rem;
+  margin: 5px auto;
+}
 
 .button1 {
-    text-align: center;
+  text-align: center;
 }
 
 .button1:hover {
-    background-color: #005792;
-     color: white;
-     
-    
+  background-color: #005792;
+  color: white;
 }
 
 .text1 {
@@ -214,69 +196,64 @@ nav {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   white-space: normal;
-} 
+}
 
 /*------------------------------------------------------------------skills */
 
 #skills {
-    background-color:#53cde2;
-    /* padding-top: 100px; */
-    padding-bottom: 100px;
-    
+  background-color: #53cde2;
+  /* padding-top: 100px; */
+  padding-bottom: 100px;
 }
 
 .progress {
-    position: relative;
-    height: 40px;
-    margin-bottom: 50px;
-    
+  position: relative;
+  height: 40px;
+  margin-bottom: 50px;
 }
 
 .progress-type {
-    position: absolute;
-    left: 0;
-    font-size: 1.5rem;
-    font-weight: 300;
-    padding: 3px 30px 4px 10px;
-    color: #fafafa;
-    background-color: #064acb;
+  position: absolute;
+  left: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 3px 30px 4px 10px;
+  color: #fafafa;
+  background-color: #064acb;
 }
 
 .percentage {
-    position: absolute;
-    /* margin-left: 95%; */
-    right: 0;
-    
-    font-size: 1.5rem;
-    font-weight: 300;
+  position: absolute;
+  /* margin-left: 95%; */
+  right: 0;
+
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
-label{
-    padding-top: 1.5rem;
+label {
+  padding-top: 1.5rem;
 }
 
 .progressive {
-    height: 2.5rem;
-    width: 100%;
-    /* border: 1px solid #005792; */
+  height: 2.5rem;
+  width: 100%;
+  /* border: 1px solid #005792; */
 }
-
-
 
 /* ----------------------------------------------------------Contact section */
 
 #contact {
-    background-color:#d1fafa;
-    padding-top: 50px;
-    padding-bottom: 100px;
-
+  background-color: #d1fafa;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .contact-info {
-    /* color: rgb(65, 42, 165); */
-    font-size: 1.2rem;
+  /* color: rgb(65, 42, 165); */
+  font-size: 1.2rem;
 }
 
 /* .contact-info:hover {
@@ -285,103 +262,78 @@ label{
 } */
 
 .contact-form {
-    width: 100%; 
-    margin: 5px auto;
-    padding: 4px;
-    border: 1px solid #005792;
-    border-radius: 5px;
-    outline: none;
+  width: 100%;
+  margin: 5px auto;
+  padding: 4px;
+  border: 1px solid #005792;
+  border-radius: 5px;
+  outline: none;
 }
 
 .contact-form:focus {
-    background-color: #53cce2;
-    border: 1px solid #005792;
+  background-color: #53cce2;
+  border: 1px solid #005792;
 }
 
 /* Footer */
 
 footer {
-    text-align: center;
-    padding-top: 50px;
-    background-color: #005792;
-    border-top: 2px solid white;
-    height: 13rem;
+  text-align: center;
+  padding-top: 2.5rem;
+  background-color: #005792;
+  border-top: 2px solid white;
+  height: 13rem;
 }
 
-
 footer a {
-    display: inline-block;
-    font-size: 2.1rem;
-    border: 1px solid #edf9fc;
-    padding: 12px ;
-    border-radius: 5px;
-    background-color: white;
-  
-} 
+  display: inline-block;
+  font-size: 2.1rem;
+  border: 1px solid #edf9fc;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: white;
+}
 .footer-anchor-spacing {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 footer a:hover {
-    color: white;
-    background-color:#005792;
-    transition-duration: 1s;
-
+  color: white;
+  background-color: #005792;
+  transition-duration: 1s;
 }
 
 .copyright {
-    padding-top: 1rem;
-    color: white;
-} 
-
- 
-    
-     
- 
-   
-  
+  padding-top: 1rem;
+  color: white;
+}
 
 /* Media Queries */
 
 @media only screen and (max-width: 1024px) {
   /* Large devices (laptops/desktops, 992px and up) */
- 
-
-
-
-@media only screen and (max-width: 992px) {
-  /* Large devices (laptops/desktops, 992px and up) */
-  /* h1, .intro {
-       padding: 150px 10px 15px 10px;
-    } */
-
-  
+  h1 {
+    padding-top: 42rem;
+  }
 }
-
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  h1, .intro {
-       padding: 150px 5px 10px 5px;
-       
-    }
-
-    
-
-    /* footer {
-        padding-left: 30%;
-    }
-} */
+  h1 {
+    padding-top: 30rem;
+  }
+}
 
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
-  /* h1, .intro {
-       padding: 150px 5px 10px 5px;
-       
-    } */
+  h1 {
+    padding-top: 15rem;
+  }
+}
 
-
-    /* footer {
-        padding-left: 2rem;
-    } */
+@media only screen and (max-width: 320px) {
+  footer a {
+    font-size: 1.5rem;
+    padding: 8px;
+  }
 }
