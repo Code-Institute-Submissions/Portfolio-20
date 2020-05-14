@@ -4,7 +4,7 @@ This website has been created to serve the purpose of my portfolio as a Full-Sta
 ## Demo
 A live demo can be found [here](https://takaforyannick30.github.io/Portfolio/)
 
-![Multi screen preview](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/images/multi-screenview.png)
+![Multi screen preview](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/images/multi-screen-preview.png)
 
 ## UX
 
@@ -97,16 +97,16 @@ To run locally, you can clone this repository directly into the editor of your c
 ### Content
 The content in the "ABOUT" and "PORTFOLIO" section in this project was written by me.
 
-My Curriculum Vitae attached in the CV section as an external pdf file was built using [resume.io's]("https://resume.io") resume builder.
+My Curriculum Vitae attached in the CV section as an external pdf file was built using [resume.io's](https://resume.io) resume builder.
 
 ### Media
-The background image used on the home page was taken from [Unsplash]("https://unsplash.com/"). I added a black color overlay on the image to enable the text in the section to be more visible.
-The icons used in this project were taken from [Font Awesome]("https://fontawesome.com/"). 
+The background image used on the home page was taken from [Unsplash](https://unsplash.com/). I added a black color overlay on the image to enable the text in the section to be more visible.
+The icons used in this project were taken from [Font Awesome](https://fontawesome.com/). 
 
 ### Acknowledgements
-I received inspiration for this project from Code Institute's [StudentExampleProjectGradeFive]("https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive").
+I received inspiration for this project from Code Institute's [StudentExampleProjectGradeFive](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive).
 
-The Scrollspy nav link automation with Bootstrap 4 is something I learnt from a Youtube tutorial by [System 22 I.T Solutions]("https://www.youtube.com/watch?v=Iy96iPwzY18").
+The Scrollspy nav link automation with Bootstrap 4 is something I learnt from a Youtube tutorial by [System 22 I.T Solutions](https://www.youtube.com/watch?v=Iy96iPwzY18).
 
 A special thanks to my mentor, Sandeep Aggarwal.
 
