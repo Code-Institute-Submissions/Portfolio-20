@@ -4,7 +4,7 @@ This website has been created to serve the purpose of my portfolio as a Full-Sta
 ## Demo
 A live demo can be found [here](https://takaforyannick30.github.io/Portfolio/)
 
-![Multi screen preview](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/images/multi-screen-preview.png)
+(https://github.com/Takaforyannick30/Portfolio/blob/master/assets/images/multi-screen-preview.png)
 
 ## UX
 
@@ -101,6 +101,7 @@ My Curriculum Vitae attached in the CV section as an external pdf file was buil
 
 ### Media
 The background image used on the home page was taken from [Unsplash](https://unsplash.com/). I added a black color overlay on the image to enable the text in the section to be more visible.
+
 The icons used in this project were taken from [Font Awesome](https://fontawesome.com/). 
 
 ### Acknowledgements

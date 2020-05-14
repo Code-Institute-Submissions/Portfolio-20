@@ -1,4 +1,4 @@
-/* General */
+/*----------------------------------------------------------- General */
 
 * {
   padding: 0;
@@ -31,7 +31,7 @@ h2 {
   letter-spacing: 5px;
 }
 
-/* Header-Navigation */
+/*-------------------------------------------------------------------------- Header-Navigation */
 
 header {
   position: absolute;
@@ -64,7 +64,7 @@ nav {
   transition-duration: 0.5s;
 }
 
-/* Home */
+/*----------------------------------------------------------------------------------- Home */
 
 .intro {
   position: relative;
@@ -91,7 +91,7 @@ nav {
   z-index: 1;
 }
 
-/* About Section */
+/*-------------------------------------------------------------------------- About Section */
 
 #about {
   background-color: #53cde2;
@@ -108,7 +108,7 @@ nav {
   background-position: top;
 }
 
-/* PORTFOLIO-SECTION */
+/*--------------------------------------------------------------- PORTFOLIO-SECTION */
 
 #portfolio {
   background-color: #d1fafa;
@@ -275,7 +275,7 @@ label {
   border: 1px solid #005792;
 }
 
-/* Footer */
+/* --------------------------------------------------------------------------Footer */
 
 footer {
   text-align: center;
@@ -308,7 +308,7 @@ footer a:hover {
   color: white;
 }
 
-/* Media Queries */
+/* -----------------------------------------------------------------------Media Queries */
 
 @media only screen and (max-width: 1024px) {
   /* Large devices (laptops/desktops, 992px and up) */
