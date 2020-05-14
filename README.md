@@ -4,6 +4,8 @@ This website has been created to serve the purpose of my portfolio as a Full-Sta
 ## Demo
 A live demo can be found [here](https://takaforyannick30.github.io/Portfolio/)
 
+![Multi screen preview](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/images/multi-screenview.png)
+
 ## UX
 
 ### User Stories
@@ -72,6 +74,8 @@ Git is a free and open source distributed version control system designed to han
 
 Gitpod is an online integrated development environment for GitHub. It creates a complete and disposable development environment for any GitHub repository directly in a browser. This project was developed in Gitpod.
 
+#Testing
+
 ## Deployment
 
 This site was developed using Gitpod. All changes to the code were then added and committed to a local repository. The commits were then pushed to my GitHub repository. The project was hosted using GitHub pages directly from the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html. The process of deploying this project on GitHub pages can be seen as bellow; 
@@ -87,6 +91,24 @@ This site was developed using Gitpod. All changes to the code were then added an
 * Click on the URL and you will be auto-referred to the published webpage. When returning to the GitHub repository setting, scroll down to GitHub pages and you will see a light green block stating "Your site is published at " [https://takaforyannick30.github.io/Portfolio/](https://takaforyannick30.github.io/Portfolio/)".
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone  https://takaforyannick30.github.io/Portfolio.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+
+## Credits
+
+### Content
+The content in the "ABOUT" and "PORTFOLIO" section in this project was written by me.
+
+My Curriculum Vitae attached in the CV section as an external pdf file was built using [resume.io's]("https://resume.io") resume builder.
+
+### Media
+The background image used on the home page was taken from [Unsplash]("https://unsplash.com/"). I added a black color overlay on the image to enable the text in the section to be more visible.
+The icons used in this project were taken from [Font Awesome]("https://fontawesome.com/"). 
+
+### Acknowledgements
+I received inspiration for this project from Code Institute's [StudentExampleProjectGradeFive]("https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive").
+
+The Scrollspy nav link automation with Bootstrap 4 is something I learnt from a Youtube tutorial by [System 22 I.T Solutions]("https://www.youtube.com/watch?v=Iy96iPwzY18").
+
+A special thanks to my mentor, Sandeep Aggarwal.
 
 
 
