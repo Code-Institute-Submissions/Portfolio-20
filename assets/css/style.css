@@ -24,7 +24,7 @@ h1 {
 
 h2 {
   font-weight: 600;
-  padding-top: 100px;
+  padding-top: 7rem;
   margin-bottom: 2.5rem;
   text-align: center;
   text-transform: uppercase;
@@ -202,11 +202,11 @@ nav {
 
 /*------------------------------------------------------------------skills */
 
-#skills {
+/* #skills {
   background-color: #53cde2;
   /* padding-top: 100px; */
   padding-bottom: 100px;
-}
+} */
 
 .progress {
   position: relative;
@@ -214,7 +214,7 @@ nav {
   margin-bottom: 50px;
 }
 
-.progress-type {
+/* .progress-type {
   position: absolute;
   left: 0;
   font-size: 1.5rem;
@@ -222,7 +222,7 @@ nav {
   padding: 3px 30px 4px 10px;
   color: #fafafa;
   background-color: #064acb;
-}
+} */
 
 .percentage {
   position: absolute;
@@ -247,19 +247,20 @@ label {
 
 #contact {
   background-color: #d1fafa;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 3.5rem;
 }
 
 .contact-info {
-  /* color: rgb(65, 42, 165); */
+  
   font-size: 1.2rem;
+  word-wrap: break-word;
 }
 
-/* .contact-info:hover {
-    font-size: 1.5rem;
-    transition-duration: 0.5s;
-} */
+.contact-info-icons {
+  padding-right: 0.6rem;
+}
+
+
 
 .contact-form {
   width: 100%;
@@ -282,7 +283,7 @@ footer {
   padding-top: 2.5rem;
   background-color: #005792;
   border-top: 2px solid white;
-  height: 13rem;
+  height: 12rem;
 }
 
 footer a {
@@ -321,6 +322,9 @@ footer a:hover {
   /* For mobile phones: */
   h1 {
     padding-top: 30rem;
+  }
+  .about-pic {
+      display: none;
   }
 }
 
