@@ -18,9 +18,9 @@ h1 {
   font-size: 3.5rem;
   font-weight: 600;
   text-align: center;
-  padding-top: 400px;
+  padding-top: 30%;
   z-index: 1;
-}
+} 
 
 h2 {
   font-weight: 600;
@@ -63,7 +63,7 @@ nav {
 
 /*----------------------------------------------------------------------------------- Home */
 
-.intro {
+.home-section {
   position: relative;
   background-image: url("../images/francesco-de-tommaso-unsplash1920-1080.jpg");
   min-height: 100vh;
@@ -82,7 +82,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.intro p {
+.home-section p {
   font-size: 1.5rem;
   text-align: center;
   z-index: 1;
@@ -90,15 +90,15 @@ nav {
 
 /*-------------------------------------------------------------------------- About Section */
 
-#about {
+.about-section {
   background-color: #53cde2;
 }
 
-#about p {
+.about-section p {
   margin: 40px 0px;
 }
 
-.about-pic {
+.about-section-picture {
   background-image: url("../images/about-picture-takafor-yannick.jpg");
   min-height: 80vh;
   background-size: cover;
@@ -107,7 +107,7 @@ nav {
 
 /*--------------------------------------------------------------- PORTFOLIO-SECTION */
 
-#portfolio {
+.portfolio-section {
   background-color: #d1fafa;
   padding-bottom: 80px;
 }
@@ -131,7 +131,7 @@ nav {
   background-color: #53cde2;
 }
 
-.overlay1 {
+.project-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -143,29 +143,29 @@ nav {
   transition: 0.5s ease;
 }
 
-.project1:hover .overlay1 {
+.project1:hover .project-overlay {
   width: 100%;
 }
 
-.project2:hover .overlay1 {
+.project2:hover .project-overlay {
   width: 100%;
 }
 
-.project3:hover .overlay1 {
+.project3:hover .project-overlay {
   width: 100%;
 }
 
-.project4:hover .overlay1 {
+.project4:hover .project-overlay {
   width: 100%;
 }
 
-.stage {
+.project-overlay-text {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 75px;
 }
 
-.overlay1 a {
+.project-overlay a {
   display: block;
   text-decoration: none;
   padding: 5px;
@@ -176,16 +176,18 @@ nav {
   margin: 5px auto;
 }
 
-.button1 {
+.project-overlay-btn {
   text-align: center;
 }
 
-.button1:hover {
+/* ---------------------project overlay btn and contact form btn hover */
+.project-overlay-btn:hover,
+.contact-form-btn:hover {
   background-color: #005792;
   color: white;
 }
 
-.text1 {
+.project-text {
   /* color: white; */
   font-size: 20px;
   position: absolute;
@@ -197,69 +199,59 @@ nav {
   white-space: normal;
 }
 
-/*------------------------------------------------------------------skills */
+/*------------------------------------------------------------------skills section */
 
-#skills {
+.skills-section {
   background-color: #53cde2;
-  /* padding-top: 100px; */
   padding-bottom: 100px;
 }
-
 
 label {
   padding-top: 1.5rem;
 }
 
-
-.progressive {
+.progress-level {
   height: 2.5rem;
   width: 100%;
   background-color: white;
   color: #8ab4f8;
 }
 
-.progressive::-moz-progress-bar { 
+/* progress level-done for mozila firefox */
+.progress-level::-moz-progress-bar { 
   background-color: #8ab4f8;
-  
   }
 
-.progressive::-moz-progress-value { 
+/* progress level-left for mozila firefox */
+.progress-level::-moz-progress-value { 
   color: white; 
   }
 
-
-
-
-
-/* progress bar for chrome..the progress section */
-.progressive::-webkit-progress-value {
+/* progress level-done for chrome and safari */
+.progress-level::-webkit-progress-value {
     background-color: #8ab4f8;   
 }
 
-.progressive::-webkit-progress-bar {
+/* progress level-left for chrome and safari */
+.progress-level::-webkit-progress-bar {
   background: white;
 }
 
 
-
 /* ----------------------------------------------------------Contact section */
 
-#contact {
+.contact-section {
   background-color: #d1fafa;
   padding-bottom: 3.5rem;
 }
 
-.contact-info {
-  
+.contact-info { 
   font-size: 1.2rem;
-  /* word-wrap: break-word; */
 }
 
 .contact-info-icons {
   padding-right: 0.6rem;
 }
-
-
 
 .contact-form {
   width: 100%;
@@ -293,6 +285,7 @@ footer a {
   border-radius: 5px;
   background-color: white;
 }
+
 .footer-anchor-spacing {
   margin-left: 2%;
 }
@@ -310,29 +303,11 @@ footer a:hover {
 
 /* -----------------------------------------------------------------------Media Queries */
 
-@media only screen and (max-width: 1024px) {
-  /* Large devices (laptops/desktops, 992px and up) */
-  h1 {
-    padding-top: 42rem;
-  }
-}
-
-
-
 @media only screen and (max-width: 767px) {
   /* For mobile phones: */
-  h1 {
-    padding-top: 30rem;
-  }
-  .about-pic {
-      display: none;
-  }
-}
 
-@media only screen and (max-width: 500px) {
-  /* For mobile phones: */
-  h1 {
-    padding-top: 15rem;
+  .about-section-picture {
+      display: none;
   }
 }
 
@@ -341,38 +316,4 @@ footer a:hover {
     font-size: 1.5rem;
     padding: 8px;
   }
-}
-
-@media only screen and (min-device-width: 1025px) and (orientation: landscape){
-
-    h1 {
-        padding-top: 30%;
-    }
-
-
-}
-
-@media only screen and (max-device-width: 1024px) and (orientation: landscape){
-
-    h1 {
-        padding-top: 25%;
-    }
-
-
-
-}
-
-@media only screen and (max-device-width: 767px) and (orientation: landscape){
-
-    .about-pic {
-        display: none;
-    }
-
-    /* .navbar-light .navbar-nav .nav-link {
-        margin-bottom: 0.2rem;
-       
-} */
-
-
-
 }
