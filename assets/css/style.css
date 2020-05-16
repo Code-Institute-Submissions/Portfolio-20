@@ -214,14 +214,20 @@ label {
 .progressive {
   height: 2.5rem;
   width: 100%;
-  background-color: #8ab4f8;
-  color: white;
+  background-color: white;
+  color: #8ab4f8;
 }
 
 .progressive::-moz-progress-bar { 
   background-color: #8ab4f8;
+  
+  }
+
+.progressive::-moz-progress-value { 
   color: white; 
   }
+
+
 
 
 
