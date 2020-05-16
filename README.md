@@ -27,15 +27,15 @@ In the Home section, I wanted employers to know my name and job title. In the ab
 
 ### Skeleton
 
-[Home wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Home-wireframe-idea-2.pdf)
+[Home wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/home-wireframe-idea-2.pdf)
 
-[About wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/About-wireframe-idea.pdf)
+[About wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/about-wireframe-idea.pdf)
 
-[Portfolio](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Portfolio-wireframe-idea.pdf)
+[Portfolio](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/portfolio-wireframe-idea.pdf)
 
-[Skills wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Skills-wireframe-idea.pdf)
+[Skills wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/skills-wireframe-idea.pdf)
 
-[Contact wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/Contact-wireframe-idea.pdf)
+[Contact wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/contact-wireframe-idea.pdf)
 
 
 ### Surface

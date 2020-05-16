@@ -47,6 +47,8 @@ nav {
 .navbar-light .navbar-nav .nav-link {
   color: white;
   margin: 10px;
+  padding: 0.7rem;
+  line-height: 0.1rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -54,21 +56,16 @@ nav {
   transition-duration: 0.5s;
 }
 
-.navbar-light .navbar-brand {
-  font-weight: 600;
-  color: #edf9fc;
-}
-.navbar-light .navbar-brand:hover {
-  color: #53cde2;
-  font-size: 1.5rem;
-  transition-duration: 0.5s;
+.navbar-light .navbar-nav .cv-nav-link:visited {
+  color: white;
+
 }
 
 /*----------------------------------------------------------------------------------- Home */
 
 .intro {
   position: relative;
-  background-image: url("../images/francesco-de-tommaso-unsplash.jpg");
+  background-image: url("../images/francesco-de-tommaso-unsplash1920-1080.jpg");
   min-height: 100vh;
   background-size: cover;
   background-position: center;
@@ -102,7 +99,7 @@ nav {
 }
 
 .about-pic {
-  background-image: url("../images/yannick(1)n.jpg");
+  background-image: url("../images/about-picture-takafor-yannick.jpg");
   min-height: 80vh;
   background-size: cover;
   background-position: top;
@@ -202,11 +199,11 @@ nav {
 
 /*------------------------------------------------------------------skills */
 
-/* #skills {
+#skills {
   background-color: #53cde2;
   /* padding-top: 100px; */
   padding-bottom: 100px;
-} */
+}
 
 .progress {
   position: relative;
@@ -214,21 +211,9 @@ nav {
   margin-bottom: 50px;
 }
 
-/* .progress-type {
-  position: absolute;
-  left: 0;
-  font-size: 1.5rem;
-  font-weight: 300;
-  padding: 3px 30px 4px 10px;
-  color: #fafafa;
-  background-color: #064acb;
-} */
-
 .percentage {
   position: absolute;
-  /* margin-left: 95%; */
   right: 0;
-
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -240,7 +225,6 @@ label {
 .progressive {
   height: 2.5rem;
   width: 100%;
-  /* border: 1px solid #005792; */
 }
 
 /* ----------------------------------------------------------Contact section */
@@ -253,7 +237,7 @@ label {
 .contact-info {
   
   font-size: 1.2rem;
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
 }
 
 .contact-info-icons {
@@ -318,7 +302,9 @@ footer a:hover {
   }
 }
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 767px) {
   /* For mobile phones: */
   h1 {
     padding-top: 30rem;
@@ -340,4 +326,38 @@ footer a:hover {
     font-size: 1.5rem;
     padding: 8px;
   }
+}
+
+@media only screen and (min-device-width: 1025px) and (orientation: landscape){
+
+    h1 {
+        padding-top: 30%;
+    }
+
+
+}
+
+@media only screen and (max-device-width: 1024px) and (orientation: landscape){
+
+    h1 {
+        padding-top: 25%;
+    }
+
+
+
+}
+
+@media only screen and (max-device-width: 767px) and (orientation: landscape){
+
+    .about-pic {
+        display: none;
+    }
+
+    /* .navbar-light .navbar-nav .nav-link {
+        margin-bottom: 0.2rem;
+       
+} */
+
+
+
 }
