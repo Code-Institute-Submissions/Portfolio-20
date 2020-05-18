@@ -232,7 +232,7 @@ label {
 
 /* progress level-left for chrome and safari */
 .progress-level::-webkit-progress-bar {
-  color: #ffffff;
+  background: #ffffff;
 }
 
 /* ----------------------------------------------------------Contact section */
