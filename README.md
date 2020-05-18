@@ -116,7 +116,9 @@ This website was tested across multiple browsers such as Google Chrome
 
 2. For Mozilla Firefox `::-moz-progress-bar` (for background color) `::-moz-progress-value` (for color)
 
-Another issue found was in Microsoft Edge where the progress bar has a solid 1px black border.The progress bar in Mozilla Firefox also has borders. This issue was not fixed.
+Another issue found was in Microsoft Edge were the progress bar displayed a 1px solid black border. The progress bar in Mozila also displayed a border. To fix this issue I added `border: none` to my default css styling for the progress bar which works for microsoft edge and to the background color styling for Mozila Firefox.
+
+In addition, Mozilla firefox displays a default browser color(reddish)  on the contact form focus state of all unfilled input fields, unlike other browsers that displayed the color I assigned to the "contact-form:focus" in my CSS. This issue was not fixed.
 
 The HTML and CSS code file of this project was tested by direct input to [W3C Validator](https://validator.w3.org/)and no error was found. A mobile friendly test of this website was done using [search.google.com](https://search.google.com/test/mobile-friendly). The responsiveness was also done using websites such as [Am I Responsive](http://ami.responsivedesign.is/) and [Responsinator](http://www.responsinator.com/) .
 

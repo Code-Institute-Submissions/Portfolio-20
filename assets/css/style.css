@@ -265,7 +265,6 @@ label {
 .contact-form:focus {
   background-color: #53cce2;
   border: 1px solid #005792;
-  -moz-appearance: none;
 }
 
 /* --------------------------------------------------------------------------Footer */
