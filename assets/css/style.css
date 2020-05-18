@@ -208,6 +208,7 @@ label {
   padding-top: 1.5rem;
 }
 
+/*this works for microsoft edge */
 .progress-level {
   height: 2.5rem;
   width: 100%;
@@ -264,6 +265,7 @@ label {
 .contact-form:focus {
   background-color: #53cce2;
   border: 1px solid #005792;
+  -moz-appearance: none;
 }
 
 /* --------------------------------------------------------------------------Footer */
