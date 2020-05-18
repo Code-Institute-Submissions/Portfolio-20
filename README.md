@@ -3,9 +3,6 @@ This website has been created to serve the purpose of my portfolio as a Full-Sta
 
 In addition, this website has been developed to serve the purpose of my User-Centric Front End Development Milestone Project for [Code Institute](https://codeinstitute.net/)'s Full Stack Development course. Upon completion of the course, I will be awarded a diploma in Software Development accredited by [Edinburgh Napier University](https://www.napier.ac.uk/).
 
-## Demo
-A live demo can be found [here](https://takaforyannick30.github.io/Portfolio/).
-
 ## UX
 
 ### User Stories
@@ -105,14 +102,15 @@ Gitpod is an online integrated development environment for GitHub. It creates a
 This project has undergone extremely thorough testing. The user story of this project achieved the intended outcome. The manual test was carried out at every stage to ensure user experience standards remained at consistently high levels with each new implementation. The header with 6 menu items toggles into a hamburger menu on all screen size width below 992px.
 Each navigation menu takes us to the section of the page when clicked with the exception of "CV" which takes us to a new tab where it can be viewed and downloaded.
 
- 2.In the "About" section employers and visitors can read about me with a view of my image. But the image will not be displayed on all screen size width below 768px. Initially, when I was doing the wireframe, I wanted the image to be displayed below the paragraphs on the screen size mentioned above but I later changed my mind on this.
+In the "About" section employers and visitors can read about me with a view of my image But the image will not be displayed on all screen size width below 768px. Initially, when I was doing the wireframe,I wanted the image to be displayed below the paragraphs on the screen size mentioned above but I later changed my mind on this.
 
-3.The portfolio section has four projects with hover overlay effects that work well as intended. The overlay has "LEARN MORE"  link buttons which opens my GitHub repository in a new tab. This was achieved using "target ="_blank".
+The portfolio section has four projects with hover overlay effects that work well as intended.The overlay has "LEARN MORE"  link buttons which opens my GitHub repository in a new tab. This was achieved using "target ="_blank".
 
-4.The contact form works well as intended.All the fields must be field before submitting if not a little saying "please fill out this field" will popup. This was achieved using the attribute "required" on all input fields. And if an email with the wrong format is submitted a little message will popup saying what seems to be wrong with the email. This was achieved using 'type="email" ' attribute. The form is not fully functional at the moment as any message can't be sent through the form. If all input fields are filled in and submitted the page will reload and return to the home page. This was achieved using "onsubmit="return" attribute on the form.
+The contact form works well as intended.All the fields must be field before submitting if not a little saying "please fill out this field" will popup. This was achieved using the attribute "required" on all input fields. And if an email with the wrong format is submitted a little message will popup saying what seems to be wrong with the email. This was achieved using 'type="email" ' attribute. The form is not fully functional at the moment as any message can't be sent through the form. If all input fields are filled in and submitted the page will reload and return to the home page. This was achieved using "onsubmit="return" attribute on the form.
 
-5.The Scrollspy effect was tested by scrolling down the page. As soon as the top of the next page touches the border-bottom of the header, the navigation link of the section changes color from white to black thereby indication the section is currently been viewed or active.
- This website was tested across multiple browsers such as Google Chrome, Safari, Microsoft Edge, Mozilla Firefox,and Opera Mini. It was also tested on multiple mobile devices such as iPhone 4, 5, 7, 8(plus) Chrome and Safari, iPad, Samsung Galaxy, and Huawei P30 Pro to ensure compatibility and responsiveness. During the testing process, I realized that the progress bar in the skills section displayed a different color across different browsers. To make the color consistent across browser I used;
+The Scrollspy effect was tested by scrolling down the page. As soon as the top of the next page touches the border-bottom of the header,the navigation link of the section changes color from white to black thereby indication the section is currently been viewed or active.
+
+This website was tested across multiple browsers such as Google Chrome, Safari, Microsoft Edge, Mozilla Firefox,and Opera Mini. It was also tested on multiple mobile devices such as iPhone 4, 5, 7, 8(plus) Chrome and Safari, iPad, Samsung Galaxy,and Huawei P30 Pro to ensure compatibility and responsiveness. During the testing process,I realized that the progress bar in the skills section displayed a different color across different browsers.To make the color consistent across browser I used;
 
 1. For Chrome and Safari `::-webkit-progress-value` (for background color) and `::-webkit-progress-bar` (for color)
 
@@ -123,6 +121,8 @@ Another issue found was in Microsoft Edge where the progress bar has�
 The HTML and CSS code file of this project was tested by direct input to [W3C Validator](https://validator.w3.org/)and no error was found. A mobile friendly test of this website was done using [search.google.com](https://search.google.com/test/mobile-friendly). The responsiveness was also done using websites such as [Am I Responsive](http://ami.responsivedesign.is/) and [Responsinator](http://www.responsinator.com/) .
 
 ## Deployment
+
+This project has been deployed to Github Pages from the master branch. A link to the deployed version of the site can be found [here](https://takaforyannick30.github.io/Portfolio/).
 
 This site was developed using Gitpod. All changes to the code were then added and committed to a local repository. The commits were then pushed to my GitHub repository.The process can be seen as bellow;
 
