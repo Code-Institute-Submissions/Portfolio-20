@@ -100,7 +100,27 @@ Git is a free and open source distributed version control system designed to han
 
 Gitpod is an online integrated development environment for GitHub. It creates a complete and disposable development environment for any GitHub repository directly in a browser. This project was developed in Gitpod.
 
-#Testing
+## Testing
+
+This project has undergone extremely thorough testing. The user story of this project achieved the intended outcome. The manual test was carried out at every stage to ensure user experience standards remained at consistently high levels with each new implementation. The header with 6 menu items toggles into a hamburger menu on all screen size width below 992px.
+Each navigation menu takes us to the section of the page when clicked with the exception of "CV" which takes us to a new tab where it can be viewed and downloaded.
+
+ 2.In the "About" section employers and visitors can read about me with a view of my image. But the image will not be displayed on all screen size width below 768px. Initially, when I was doing the wireframe, I wanted the image to be displayed below the paragraphs on the screen size mentioned above but I later changed my mind on this.
+
+3.The portfolio section has four projects with hover overlay effects that work well as intended. The overlay has "LEARN MORE"  link buttons which opens my GitHub repository in a new tab. This was achieved using "target ="_blank".
+
+4.The contact form works well as intended.All the fields must be field before submitting if not a little saying "please fill out this field" will popup. This was achieved using the attribute "required" on all input fields. And if an email with the wrong format is submitted a little message will popup saying what seems to be wrong with the email. This was achieved using 'type="email" ' attribute. The form is not fully functional at the moment as any message can't be sent through the form. If all input fields are filled in and submitted the page will reload and return to the home page. This was achieved using "onsubmit="return" attribute on the form.
+
+5.The Scrollspy effect was tested by scrolling down the page. As soon as the top of the next page touches the border-bottom of the header, the navigation link of the section changes color from white to black thereby indication the section is currently been viewed or active.
+ This website was tested across multiple browsers such as Google Chrome, Safari, Microsoft Edge, Mozilla Firefox,and Opera Mini. It was also tested on multiple mobile devices such as iPhone 4, 5, 7, 8(plus) Chrome and Safari, iPad, Samsung Galaxy, and Huawei P30 Pro to ensure compatibility and responsiveness. During the testing process, I realized that the progress bar in the skills section displayed a different color across different browsers. To make the color consistent across browser I used;
+
+1. For Chrome and Safari `::-webkit-progress-value` (for background color) and `::-webkit-progress-bar` (for color)
+
+2. For Mozilla Firefox `::-moz-progress-bar` (for background color) `::-moz-progress-value` (for color)
+
+Another issue found was in Microsoft Edge where the progress bar has a solid 1px black border.The progress bar in Mozilla Firefox also has borders. This issue was not fixed.
+
+The HTML and CSS code file of this project was tested by direct input to [W3C Validator](https://validator.w3.org/)and no error was found. A mobile friendly test of this website was done using [search.google.com](https://search.google.com/test/mobile-friendly). The responsiveness was also done using websites such as [Am I Responsive](http://ami.responsivedesign.is/) and [Responsinator](http://www.responsinator.com/) .
 
 ## Deployment
 
@@ -125,6 +145,22 @@ This site was developed using Gitpod. All changes to the code were then added an
 * Click on the URL and you will be auto-referred to the published webpage. When returning to the GitHub repository setting, scroll down to GitHub pages and you will see a light green block stating "Your site is published at " [https://takaforyannick30.github.io/Portfolio/](https://takaforyannick30.github.io/Portfolio/)".
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone  https://takaforyannick30.github.io/Portfolio.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+
+You can submit a pull request to the master branch and await approval. To do this:
+
+* Navigate to the [original repository](https://github.com/Takaforyannick30/Portfolio)
+
+* Click on **New pull request** on the right of the Branch menu
+
+* On the compare page, click **compare across forks**
+
+* Confirm that the base fork is the repository you'd like to merge into
+
+* Use the head fork drop-down menu to select your fork,then use the compare branch drop-down menu to select the branch you made your changes in* Type a little description for your pull request
+
+* If you do not want to allow anyone with push access to the upstream repository to make changes to your PR, unselect **Allow edits from maintainers**
+
+* Click **Create pull request**
 
 ## Credits
 
