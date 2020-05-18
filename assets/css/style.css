@@ -213,11 +213,13 @@ label {
   width: 100%;
   background-color: #ffffff;
   color: #8ab4f8;
+  border: none;
 }
 
 /* progress level-done for mozila firefox */
 .progress-level::-moz-progress-bar {
   background-color: #8ab4f8;
+  border: none;
 }
 
 /* progress level-left for mozila firefox */
