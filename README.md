@@ -49,23 +49,23 @@ I wanted to keep it simple while practicing responsive design. In order to make 
 
 ### Features implemented
 
-1.Hamburger menu - the navigation bar toggles into a hamburger menu in tablet and mobile allowing users to effectively navigate.
+1. Hamburger menu - the navigation bar toggles into a hamburger menu in tablet and mobile allowing users to effectively navigate.
 
-2.CSS hover overlay portfolio - the portfolio section has a hover overlay effect with a "LEARN MORE" button linked to my GitHub repository.
+2. CSS hover overlay portfolio - the portfolio section has a hover overlay effect with a "LEARN MORE" button linked to my GitHub repository.
 
-3.Contact form - the contact section has a contact form but at the moment it is not fully functional. messages can't be sent across to me via the contact form.
+3. Contact form - the contact section has a contact form but at the moment it is not fully functional. messages can't be sent across to me via the contact form.
 
-4.Scrollspy effect - [Bootstrap](https://getbootstrap.com/)'s Scrollspy feature was used in the project.
+4. Scrollspy effect - [Bootstrap](https://getbootstrap.com/)'s Scrollspy feature was used in the project.
 
 ### Features Left To Implement
 
-1.Add a "smooth scrolling" effect to Scrollspy.
+1. Add a "smooth scrolling" effect to Scrollspy.
 
-2.Add portfolio Modals instead of just linking to my GitHub repository.
+2. Add portfolio Modals instead of just linking to my GitHub repository.
 
-3.Add [firebase](https://firebase.google.com/) to allow potential employers and visitors to get in touch with me by filling and submitting a contact form.
+3. Add [firebase](https://firebase.google.com/) to allow potential employers and visitors to get in touch with me by filling and submitting a contact form.
 
-4.Complete the projects in the planning stage and add more projects in the portfolio section.
+4. Complete the projects in the planning stage and add more projects in the portfolio section.
 
 ## Technologies used
 
