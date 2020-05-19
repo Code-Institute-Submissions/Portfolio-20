@@ -34,7 +34,7 @@ In the Home section, I wanted employers to know my name and job title. In the ab
 
 [Contact wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/contact-wireframe-idea.pdf)
 
-[Tablet view wirefram for all pages](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/tablet-view-wireframe-idea.pdf)
+[Tablet view wirefram for all pages](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/tablet-view-wireframe-idea1.pdf)
 
 
 ### Surface
