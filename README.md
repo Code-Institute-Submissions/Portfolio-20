@@ -3,7 +3,9 @@ This website has been created to serve the purpose of my portfolio as a Full-Sta
 
 In addition, this website has been developed to serve the purpose of my User-Centric Front End Development Milestone Project for [Code Institute](https://codeinstitute.net/)'s Full Stack Development course. Upon completion of the course, I will be awarded a diploma in Software Development accredited by [Edinburgh Napier University](https://www.napier.ac.uk/).
 
+
 ![My Portfolio webpage on multi-screen view](https://user-images.githubusercontent.com/59609813/82350101-35ff8280-99fb-11ea-9f29-503ebbb6544a.png)
+
 
 ## UX
 
@@ -141,6 +143,8 @@ Futhermore, I checked on iphone 8 plus and realised that my home section `backgr
 In addition, Mozilla firefox displays a default browser color(reddish)  on the contact form focus state of all unfilled input fields, unlike other browsers that displayed the color I assigned to the "contact-form:focus" in my CSS. This issue was not fixed.
 
 The HTML and CSS code file of this project was tested by direct input to [W3C Validator](https://validator.w3.org/)and no error was found. A mobile friendly test of this website was done using [search.google.com](https://search.google.com/test/mobile-friendly). The responsiveness was also done using websites such as [Am I Responsive](http://ami.responsivedesign.is/) and [Responsinator](http://www.responsinator.com/) .
+
+
 
 ## Deployment
 

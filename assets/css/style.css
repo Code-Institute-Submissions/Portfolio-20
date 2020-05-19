@@ -60,7 +60,7 @@ nav {
   color: #ffffff;
 }
 
-/*----------------------------------------------------------------------------------- Home */
+/*----------------------------------------------------------------------------------- Home Section*/
 
 .home-section {
   position: relative;
@@ -104,7 +104,7 @@ nav {
   background-position: top;
 }
 
-/*--------------------------------------------------------------- PORTFOLIO-SECTION */
+/*--------------------------------------------------------------- Portfolio Section */
 
 .portfolio-section {
   background-color: #d1fafa;
@@ -197,7 +197,7 @@ nav {
   white-space: normal;
 }
 
-/*------------------------------------------------------------------skills section */
+/*------------------------------------------------------------------Skills Section */
 
 .skills-section {
   background-color: #53cde2;
@@ -238,7 +238,7 @@ label {
   background: #ffffff;
 }
 
-/* ----------------------------------------------------------Contact section */
+/* ----------------------------------------------------------Contact Section */
 
 .contact-section {
   background-color: #d1fafa;
