@@ -1,4 +1,4 @@
-# Takafor Yannick Portfolio
+# Takafor Yannick'S Portfolio
 This website has been created to serve the purpose of my portfolio as a Full-Stack Web Developer. It has six sections namely: Home, About, Portfolio, Skills, Contact, and CV. The Portfolio section highlights four projects covering a range of technologies.The main target audience for this project is prospective employers, clients with any visitor who would like to keep up to date with my latest projects.
 
 In addition, this website has been developed to serve the purpose of my User-Centric Front End Development Milestone Project for [Code Institute](https://codeinstitute.net/)'s Full Stack Development course. Upon completion of the course, I will be awarded a diploma in Software Development accredited by [Edinburgh Napier University](https://www.napier.ac.uk/).
