@@ -24,6 +24,8 @@ In the Home section, I wanted employers to know my name and job title. In the ab
 
 ### Skeleton
 
+The wireframes used in this project were built using [Balsamiq Wireframes](https://balsamiq.com/). These were the first versions but in the development process, there was one major change in the about-section page. I decided not to display my picture in the about-section when viewed on any device with a screen width below 768px.
+
 [Home wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/home-wireframe-idea.pdf)
 
 [About wireframe](https://github.com/Takaforyannick30/Portfolio/blob/master/assets/wireframes/about-wireframe-idea.pdf)
@@ -99,6 +101,18 @@ Git is a free and open source distributed version control system designed to han
 
 Gitpod is an online integrated development environment for GitHub. It creates a complete and disposable development environment for any GitHub repository directly in a browser. This project was developed in Gitpod.
 
+* [GitHub]()
+
+GitHub is a code hosting platform for collaboration and version control. GitHub is the platform where the code for this project has been hosted.
+
+* [Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+
+Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools can help you edit pages on-the-fly and diagnose problems quickly, which ultimately helps you build better websites, faster. Google Chrome's Dev Tools was used in the building process of this project.
+
+*[Balsamiq](https://balsamiq.com/)
+
+Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard, but using a computer. Balsamiq wireframes was used in producing the wireframes for this project.
+
 ## Testing
 
 This project has undergone extremely thorough testing. The user story of this project achieved the intended outcome. The manual test was carried out at every stage to ensure user experience standards remained at consistently high levels with each new implementation. The header with 6 menu items toggles into a hamburger menu on all screen size width below 992px.
@@ -119,6 +133,8 @@ This website was tested across multiple browsers such as Google Chrome
 2. For Mozilla Firefox `::-moz-progress-bar` (for background color) `::-moz-progress-value` (for color)
 
 Another issue found was in Microsoft Edge were the progress bar displayed a 1px solid black border. The progress bar in Mozila also displayed a border. To fix this issue I added `border: none` to my default css styling for the progress bar which works for microsoft edge and to the background color styling for Mozila Firefox.
+
+Futhermore, I checked on iphone 8 plus and realised that my home section `background-attachment: fixed` was not compatible with iOS browsers as it appeared zoomed and blurry. To fix this; I used `background-attachment: scroll` in media queries for all screens with max-with 767px.
 
 In addition, Mozilla firefox displays a default browser color(reddish)  on the contact form focus state of all unfilled input fields, unlike other browsers that displayed the color I assigned to the "contact-form:focus" in my CSS. This issue was not fixed.
 
